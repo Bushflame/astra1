@@ -1,0 +1,16 @@
+{
+  "name": "var-home-dave-devs-astra1",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^4.16.6",
+    "stylus": "^0.63.0"
+  }
+}
