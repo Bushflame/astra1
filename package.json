@@ -5,12 +5,16 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
+    "styls": "stylus -w ./src/styles/index.styl -o ./src/styles/index.css",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
     "astro": "^4.16.6",
+    "pug": "^3.0.3"
+  },
+  "devDependencies": {
     "stylus": "^0.63.0"
   }
 }
